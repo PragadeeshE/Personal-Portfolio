@@ -1,3 +1,5 @@
+// Run npm run sync after updating Resume_copy.pdf
+
 export const personal = {
   name: "Pragadeesh Elangaivendhan",
   title: "Software Engineer",
@@ -6,26 +8,52 @@ export const personal = {
   phone: "+91-9025244487",
   linkedin: "https://www.linkedin.com/in/pragadeesh-elangaivendhan",
   github: "https://github.com/pragadeeshe12-ops",
-  summary:
-    "Software Engineer with experience building scalable enterprise applications, distributed systems, and REST APIs using Python, Django, React, and TypeScript. Proven track record of delivering production-grade features, improving platform reliability, resolving critical production incidents, and developing automated testing solutions in Agile environments.",
+  summary: "Software Engineer with experience building scalable enterprise applications, distributed systems, and REST APIs using Python, Django, React, and TypeScript. Proven track record of delivering production-grade features, improving platform reliability, resolving critical production incidents, and developing automated testing solutions in Agile environments.",
 };
 
 export const skills = [
   {
     category: "Languages & Backend",
-    items: ["Python", "SQL", "C", "C++", "Kotlin", "JavaScript", "TypeScript"],
+    items: [
+      "Python",
+      "SQL",
+      "C",
+      "C++",
+      "Kotlin",
+      "JavaScript",
+      "TypeScript",
+    ],
   },
   {
     category: "Frontend Development",
-    items: ["React", "TypeScript", "HTML", "CSS", "JavaScript (ES6+)"],
+    items: [
+      "React",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "JavaScript (ES6+)",
+    ],
   },
   {
     category: "Backend & Distributed Systems",
-    items: ["Django", "REST APIs", "GraphQL", "gRPC", "Celery", "Kafka"],
+    items: [
+      "Django",
+      "REST APIs",
+      "GraphQL",
+      "gRPC",
+      "Celery",
+      "Kafka",
+    ],
   },
   {
     category: "Databases",
-    items: ["MySQL", "Relational Databases", "MongoDB", "Redis", "Schema Design"],
+    items: [
+      "MySQL",
+      "Relational Databases",
+      "MongoDB",
+      "Redis",
+      "Schema Design",
+    ],
   },
   {
     category: "Testing & Automation",
@@ -40,7 +68,11 @@ export const skills = [
   },
   {
     category: "Tools & Practices",
-    items: ["Git", "Agile", "Scrum"],
+    items: [
+      "Git",
+      "Agile",
+      "Scrum",
+    ],
   },
   {
     category: "AI & Emerging Tech",
@@ -109,8 +141,7 @@ export const projects = [
   {
     title: "Good Food",
     subtitle: "Mess Lunch Ordering Platform",
-    description:
-      "Full-stack office and mess lunch ordering web app. Students place daily meal orders, track history, and admins manage users via a dashboard with kitchen reports. Deployed with React on Vercel, Django REST API on Railway, and PostgreSQL on Supabase.",
+    description: "Full-stack office and mess lunch ordering web app. Students place daily meal orders, track history, and admins manage users via a dashboard with kitchen reports. Deployed with React on Vercel, Django REST API on Railway, and PostgreSQL on Supabase.",
     tech: [
       "React",
       "TypeScript",
@@ -127,17 +158,22 @@ export const projects = [
   {
     title: "7-Day User Journey",
     subtitle: "Udemy Hackathon · Dec 2024",
-    description:
-      "Gamified onboarding journey addressing learner drop-off in the first 7 days. Features daily objectives, progress tracking, achievement badges, and milestone rewards with real-time visualization.",
-    tech: ["Python", "Django", "React", "TypeScript", "REST APIs", "MySQL"],
+    description: "Gamified onboarding journey addressing learner drop-off in the first 7 days. Features daily objectives, progress tracking, achievement badges, and milestone rewards with real-time visualization.",
+    tech: [
+      "Python",
+      "Django",
+      "React",
+      "TypeScript",
+      "REST APIs",
+      "MySQL",
+    ],
     link: null,
   },
   {
     title: "Predict.it",
     subtitle: "Stock Market Prediction Platform",
     status: "In Progress",
-    description:
-      "ML-powered platform predicting stock price ranges using XGBoost. Includes automated data pipelines, Hugging Face model hosting, and GitHub Actions MLOps for continuous retraining and deployment.",
+    description: "ML-powered platform predicting stock price ranges using XGBoost. Includes automated data pipelines, Hugging Face model hosting, and GitHub Actions MLOps for continuous retraining and deployment.",
     tech: [
       "Python",
       "Django",
@@ -153,10 +189,28 @@ export const projects = [
 ];
 
 export const navLinks = [
-  { id: "about", label: "About" },
-  { id: "skills", label: "Skills" },
-  { id: "experience", label: "Experience" },
-  { id: "education", label: "Education" },
-  { id: "projects", label: "Projects" },
-  { id: "contact", label: "Contact" },
+  {
+    id: "about",
+    label: "About",
+  },
+  {
+    id: "skills",
+    label: "Skills",
+  },
+  {
+    id: "experience",
+    label: "Experience",
+  },
+  {
+    id: "education",
+    label: "Education",
+  },
+  {
+    id: "projects",
+    label: "Projects",
+  },
+  {
+    id: "contact",
+    label: "Contact",
+  },
 ];
